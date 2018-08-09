@@ -5,12 +5,18 @@
  */
 package revisaooo_comercioeletronico;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author 20161bsi0390
  */
 public class Pedido {
-    private int qnt;
-    private double valorTotal;
+    private ArrayList<ItemPedido> pedidos;
+    private String fPagamento;
+    private int numPedido;
+    private String pedidoStatus;
+    private boolean foiPago = false; //campo de confirmação
+    
     
 }

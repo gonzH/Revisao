@@ -7,11 +7,9 @@ package revisaooo_comercioeletronico;
 
 /**
  *
- * @author 20161bsi0390
+ * @author helle
  */
-public abstract class Produto {
-    private String categoria;
-    private String descricao; 
-    private double preco;
-    private int qntEstoque;
+public class ClienteFisico extends Cliente{
+    private String CPF;
+    
 }
