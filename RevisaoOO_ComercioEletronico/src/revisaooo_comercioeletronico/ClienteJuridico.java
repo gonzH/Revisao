@@ -10,6 +10,15 @@ package revisaooo_comercioeletronico;
  * @author helle
  */
 public class ClienteJuridico extends Cliente {
-    private String CNPJ;
+    private String cnpj;
+
+    public String getCNPJ() {
+        return cnpj;
+    }
+
+    public void setCNPJ(String cnpj) {
+        this.cnpj = cnpj;
+    }
+    
     
 }
